@@ -1,0 +1,82 @@
+# System
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Virtual environment
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+.qwen/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# ruff
+.ruff_cache/
+
+# Logs
+*.log
+logs/*
+!logs/.gitkeep
+
+# Temporary/working files
+tmp/
+temp/
+*.tmp
+
+# Project specific
+data/out/*
+data/raw/*
+data/staging/*
+!data/**/.gitkeep
+viz/data/in/*
+viz/data/out/*
+!viz/**/.gitkeep
+viz/logs/*
+!viz/logs/.gitkeep
+
+# Web dashboard runtime state — job queue records and chat sessions generated
+# while the app runs, not meaningful source content.
+web/runtime/jobs/*
+web/runtime/sessions/*
+web/runtime/feynman-sessions/
+!web/runtime/jobs/.gitkeep
+!web/runtime/sessions/.gitkeep
+
+# doc-converter — generated output, tests, local fixtures
+/out/
+doc_converter/tests/
+doc_converter/examples/
+doc_converter/.pytest_cache/
+doc_converter/Задача 1/
+doc_converter/*.html
+doc_converter/*.meta.json
+!doc_converter/README.md
+*_backup_*.py
+*_backup_*.txt
